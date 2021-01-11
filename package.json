@@ -1,0 +1,17 @@
+{
+  "name": "try-system-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "node systemjs.js"
+  },
+  "keywords": ["systemjs"],
+  "author": "Katarzyna Ziomek-Zdanowicz",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "systemjs-builder": "0.16.15"
+  }
+}
