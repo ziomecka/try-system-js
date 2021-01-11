@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>I try to use system-js</title>
+  </head>
+  <body>
+    <h1>SystemJs</h1>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.0/dist/system.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.0/dist/extras/named-register.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.0/dist/extras/named-exports.min.js"></script>
+    <script src="index.js"></script>
+    <script type="module">System.import('index.js').then(({addButton}) => addButton())</script>
+  </body>
+</html>
